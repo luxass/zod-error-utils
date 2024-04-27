@@ -1,0 +1,17 @@
+{
+  "name": "@luxass/zod-error-utils",
+  "version": "0.0.1",
+  "exports": {
+    ".": "./src/index.ts",
+    "./flatten": "./src/flatten.ts",
+    "./error-map": "./src/error-map.ts"
+  },
+  "exclude": [
+    "tsup.config.ts",
+    "eslint.config.mjs",
+    "pnpm-lock.yaml",
+    ".github/**",
+    "tests",
+    "tsconfig.json"
+  ]
+}
