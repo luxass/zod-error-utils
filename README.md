@@ -14,33 +14,33 @@ npm install zod-error-utils
 ## 🚀 Usage
 
 ```ts
-import { buildZodErrorMap, flattenErrorPath, zodErrorMap } from 'zod-error-utils'
+import { buildZodErrorMap, flattenErrorPath, zodErrorMap } from "zod-error-utils";
 
 const schema = z.object({
   user: z.object({
     name: z.string(),
     isAdministrator: z.boolean(),
   }),
-})
+});
 
 const data = {
   user: {
-    name: 'John Doe',
+    name: "John Doe",
     isAdministrator: true,
   },
-}
+};
 
 const result = schema.safeParse(data, {
   errorMap: zodErrorMap
-})
+});
 
 // you can customize the zodErrorMap, by creating a new one using `buildZodErrorMap`.
 
 const customErrorMap = buildZodErrorMap({
   prefixFn(path, message) {
-    return `Custom prefix: ${path.join('.')}: ${message}`
+    return `Custom prefix: ${path.join(".")}: ${message}`;
   },
-})
+});
 ```
 
 ## 📄 License

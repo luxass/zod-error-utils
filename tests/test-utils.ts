@@ -1,9 +1,9 @@
-import { expect } from 'vitest'
-import type { ZodErrorMap, ZodSchema, z } from 'zod'
-import { zodErrorMap } from '../src/error-map'
+import { expect } from "vitest";
+import type { ZodErrorMap, ZodSchema, z } from "zod";
+import { zodErrorMap } from "../src/error-map";
 
 interface ParseOptions {
-  errorMap?: ZodErrorMap
+  errorMap?: ZodErrorMap;
 }
 
 /**
@@ -22,14 +22,14 @@ export function getParseErrorMessages<TSchema extends ZodSchema>(
     errorMap: zodErrorMap,
   },
 ): string[] | undefined {
-  const res = schema.safeParse(entry, parseOpts)
-  expect(res.success, 'schema should raise error').toBe(false)
+  const res = schema.safeParse(entry, parseOpts);
+  expect(res.success, "schema should raise error").toBe(false);
 
   if (res.error) {
-    return res.error.errors.map((e) => e.message)
+    return res.error.errors.map((e) => e.message);
   }
 }
 
 export function fixLineEndings(str: string): string {
-  return str.replace(/\r\n/g, '\n')
+  return str.replace(/\r\n/g, "\n");
 }
