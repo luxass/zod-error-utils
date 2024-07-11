@@ -8,7 +8,7 @@
 name = "zod-error-utils"
 version = true
 
-[website]
+[npm]
 enabled = true
 
 [readme]
