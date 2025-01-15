@@ -8,7 +8,7 @@
     "email": "lucasnrgaard@gmail.com",
     "url": "https://luxass.dev"
   },
-  "packageManager": "pnpm@9.15.3",
+  "packageManager": "pnpm@9.15.4",
   "license": "MIT",
   "homepage": "https://github.com/luxass/zod-error-utils",
   "repository": {
@@ -69,13 +69,13 @@
     "zod": "^3.23.4"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "^4.8.2",
+    "@luxass/eslint-config": "^4.15.0",
     "@types/node": "^22.0.0",
-    "eslint": "^9.6.0",
-    "eslint-plugin-format": "^1.0.0",
-    "tsup": "^8.1.0",
-    "typescript": "^5.5.2",
-    "vitest": "^2.0.0",
-    "zod": "^3.23.8"
+    "eslint": "^9.18.0",
+    "eslint-plugin-format": "^1.0.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8",
+    "zod": "^3.24.1"
   }
 }
