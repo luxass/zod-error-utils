@@ -1,5 +1,5 @@
+import type { z, ZodErrorMap, ZodSchema } from "zod";
 import { expect } from "vitest";
-import type { ZodErrorMap, ZodSchema, z } from "zod";
 import { zodErrorMap } from "../src/error-map";
 
 interface ParseOptions {
