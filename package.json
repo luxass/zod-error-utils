@@ -20,40 +20,22 @@
   ],
   "exports": {
     ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.mjs"
-      },
-      "require": {
-        "types": "./dist/index.d.cts",
-        "default": "./dist/index.cjs"
-      }
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./error-map": {
-      "import": {
-        "types": "./dist/error-map.d.ts",
-        "default": "./dist/error-map.mjs"
-      },
-      "require": {
-        "types": "./dist/error-map.d.cts",
-        "default": "./dist/error-map.cjs"
-      }
+      "import": "./dist/error-map.js",
+      "require": "./dist/error-map.cjs"
     },
     "./flatten": {
-      "import": {
-        "types": "./dist/flatten.d.ts",
-        "default": "./dist/flatten.mjs"
-      },
-      "require": {
-        "types": "./dist/flatten.d.cts",
-        "default": "./dist/flatten.cjs"
-      }
+      "import": "./dist/flatten.js",
+      "require": "./dist/flatten.cjs"
     },
     "./package.json": "./package.json"
   },
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.cts",
   "files": [
     "dist"
   ],
@@ -61,8 +43,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest"
@@ -75,7 +57,8 @@
     "@types/node": "^22.0.0",
     "eslint": "^9.27.0",
     "eslint-plugin-format": "^1.0.1",
-    "tsup": "^8.5.0",
+    "publint": "^0.3.12",
+    "tsdown": "^0.12.4",
     "typescript": "^5.8.3",
     "vitest": "^3.1.4",
     "zod": "^3.25.34"
