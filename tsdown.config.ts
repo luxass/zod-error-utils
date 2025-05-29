@@ -7,7 +7,7 @@ export default defineConfig({
     "./src/error-map.ts",
   ],
   exports: true,
-  format: ["cjs", "esm"],
+  format: "esm",
   clean: true,
   dts: true,
   treeshake: true,

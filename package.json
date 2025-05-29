@@ -19,23 +19,14 @@
     "zod"
   ],
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
-    },
-    "./error-map": {
-      "import": "./dist/error-map.js",
-      "require": "./dist/error-map.cjs"
-    },
-    "./flatten": {
-      "import": "./dist/flatten.js",
-      "require": "./dist/flatten.cjs"
-    },
+    ".": "./dist/index.js",
+    "./error-map": "./dist/error-map.js",
+    "./flatten": "./dist/flatten.js",
     "./package.json": "./package.json"
   },
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "module": "./dist/index.js",
-  "types": "./dist/index.d.cts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
