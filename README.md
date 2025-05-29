@@ -5,6 +5,10 @@
 
 A set of utilities to work with Zod errors.
 
+> [!IMPORTANT]
+> This package is not recommended to use for Zod V4, as it has better support for error messages and paths.
+> See the [Zod V4 documentation](https://zod.dev/error-formatting#zprettifyerror) for more information.
+
 ## 📦 Installation
 
 ```bash
