@@ -16,8 +16,7 @@
     "url": "git+https://github.com/luxass/zod-error-utils.git"
   },
   "keywords": [
-    "zod",
-    "astro"
+    "zod"
   ],
   "exports": {
     ".": {
