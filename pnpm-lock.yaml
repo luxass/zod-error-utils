@@ -9,29 +9,29 @@ importers:
   .:
     devDependencies:
       '@luxass/eslint-config':
-        specifier: ^4.15.0
+        specifier: ^4.18.1
         version: 4.18.1(@typescript-eslint/utils@8.31.1(eslint@9.27.0)(typescript@5.8.3))(@vue/compiler-sfc@3.4.31)(eslint-plugin-format@1.0.1(eslint@9.27.0))(eslint@9.27.0)(typescript@5.8.3)(vitest@3.1.4(@types/debug@4.1.12)(@types/node@22.15.23)(yaml@2.7.1))
       '@types/node':
         specifier: ^22.0.0
         version: 22.15.23
       eslint:
-        specifier: ^9.18.0
+        specifier: ^9.27.0
         version: 9.27.0
       eslint-plugin-format:
         specifier: ^1.0.1
         version: 1.0.1(eslint@9.27.0)
       tsup:
-        specifier: ^8.3.5
+        specifier: ^8.5.0
         version: 8.5.0(postcss@8.5.3)(typescript@5.8.3)(yaml@2.7.1)
       typescript:
-        specifier: ^5.7.3
+        specifier: ^5.8.3
         version: 5.8.3
       vitest:
-        specifier: ^3.0.0
+        specifier: ^3.1.4
         version: 3.1.4(@types/debug@4.1.12)(@types/node@22.15.23)(yaml@2.7.1)
       zod:
-        specifier: ^3.24.1
-        version: 3.25.32
+        specifier: ^3.25.34
+        version: 3.25.34
 
 packages:
 
@@ -2163,8 +2163,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.25.32:
-    resolution: {integrity: sha512-OSm2xTIRfW8CV5/QKgngwmQW/8aPfGdaQFlrGoErlgg/Epm7cjb6K6VEyExfe65a3VybUOnu381edLb0dfJl0g==}
+  zod@3.25.34:
+    resolution: {integrity: sha512-lZHvSc2PpWdcfpHlyB33HA9nqP16GpC9IpiG4lYq9jZCJVLZNnWd6Y1cj79bcLSBKTkxepfpjckPv5Y5VOPlwA==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -4470,6 +4470,6 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.25.32: {}
+  zod@3.25.34: {}
 
   zwitch@2.0.4: {}
