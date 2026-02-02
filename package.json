@@ -45,12 +45,12 @@
   },
   "devDependencies": {
     "@luxass/eslint-config": "4.19.0",
-    "@types/node": "22.17.0",
+    "@types/node": "22.19.7",
     "eslint": "9.27.0",
     "eslint-plugin-format": "1.0.1",
-    "publint": "0.3.12",
-    "tsdown": "0.13.3",
-    "typescript": "5.8.3",
+    "publint": "0.3.17",
+    "tsdown": "0.20.1",
+    "typescript": "5.9.3",
     "vitest": "3.1.4",
     "zod": "3.25.76"
   }
